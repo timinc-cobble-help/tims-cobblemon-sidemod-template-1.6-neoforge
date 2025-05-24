@@ -1,4 +1,4 @@
-package us.timinc.mc.cobblemon.capturexp.config
+package {{package.original}}.{{sideMod.snakeCase}}.config
 
 import com.google.gson.GsonBuilder
 import java.io.File

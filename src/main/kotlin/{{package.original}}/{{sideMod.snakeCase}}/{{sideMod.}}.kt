@@ -1,4 +1,4 @@
-package us.timinc.mc.cobblemon.Mod
+package {{package.original}}.Mod
 
 @Mod(Mod.MOD_ID)
 object Mod {

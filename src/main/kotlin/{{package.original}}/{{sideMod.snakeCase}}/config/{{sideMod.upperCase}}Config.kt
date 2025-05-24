@@ -1,4 +1,4 @@
-package us.timinc.mc.cobblemon.{{sideMod.snakeCase}}.config
+package {{package.original}}.{{sideMod.snakeCase}}.config
 
 class {{sideMod.upperCase}}Config {
 }
