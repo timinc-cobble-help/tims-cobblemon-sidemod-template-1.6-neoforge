@@ -5,7 +5,7 @@ object {{sideMod.upperCase}}Mod {
     const val MOD_ID = "{{sideMod.snakeCase}}"
 
     @Suppress("MemberVisibilityCanBePrivate")
-    var config: ModConfig = ConfigBuilder.load(ModConfig::class.java, MOD_ID)
+    var config: {{sideMod.upperCase}}Config = ConfigBuilder.load({{sideMod.upperCase}}Config::class.java, MOD_ID)
 
     @EventBusSubscriber()
     object Registration {
