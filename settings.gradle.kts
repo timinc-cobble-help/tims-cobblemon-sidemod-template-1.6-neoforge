@@ -1,4 +1,4 @@
-rootProject.name = "{{sideMod.kebabCase}}"
+rootProject.name = "cobblemon-{{sideMod.kebabCase}}"
 
 pluginManagement {
     repositories {
