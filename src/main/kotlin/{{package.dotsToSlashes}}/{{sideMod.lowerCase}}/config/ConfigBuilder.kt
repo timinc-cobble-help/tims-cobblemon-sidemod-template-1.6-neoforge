@@ -1,4 +1,4 @@
-package {{package.original}}.{{sideMod.snakeCase}}.config
+package {{package.original}}.{{sideMod.lowerCase}}.config
 
 import com.google.gson.GsonBuilder
 import java.io.File

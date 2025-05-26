@@ -5,7 +5,7 @@ import net.neoforged.fml.common.Mod
 import {{package.original}}.{{sideMod.lowerCase}}.config.ConfigBuilder
 import {{package.original}}.{{sideMod.lowerCase}}.config.{{sideMod.upperCase}}Config
 
-@Mod(Mod.MOD_ID)
+@Mod({{sideMod.upperCase}}Mod.MOD_ID)
 object {{sideMod.upperCase}}Mod {
     const val MOD_ID = "{{sideMod.snakeCase}}"
 
