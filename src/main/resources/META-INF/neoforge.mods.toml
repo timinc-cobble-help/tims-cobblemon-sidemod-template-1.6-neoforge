@@ -3,7 +3,7 @@ loaderVersion = "[4,)"
 license = "{{license.original}}"
 
 [[mods]]
-modId = "{{sideMod.snakeCase}}"
+modId = "{{sideMod.lowerCase}}"
 version = "1.6-neoforge-0.0.0"
 displayName = "{{sideMod.original}}"
 authors = "{{authorHandle.original}} aka {{authorName.original}}"
@@ -11,21 +11,21 @@ description = '''
 {{description.original}}
 '''
 
-[[dependencies.{{sideMod.snakeCase}}]]
+[[dependencies.{{sideMod.lowerCase}}]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.21.1]"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.{{sideMod.snakeCase}}]]
+[[dependencies.{{sideMod.lowerCase}}]]
 modId = "neoforge"
 mandatory = true
 versionRange = "[21.1.66,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.{{sideMod.snakeCase}}]]
+[[dependencies.{{sideMod.lowerCase}}]]
 modId = "cobblemon"
 mandatory = true
 versionRange = "[1.6.0,1.7.0)"
