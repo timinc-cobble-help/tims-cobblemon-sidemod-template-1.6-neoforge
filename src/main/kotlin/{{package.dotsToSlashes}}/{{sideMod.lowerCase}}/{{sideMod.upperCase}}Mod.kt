@@ -7,7 +7,7 @@ import {{package.original}}.{{sideMod.lowerCase}}.config.{{sideMod.upperCase}}Co
 
 @Mod({{sideMod.upperCase}}Mod.MOD_ID)
 object {{sideMod.upperCase}}Mod {
-    const val MOD_ID = "{{sideMod.snakeCase}}"
+    const val MOD_ID = "{{sideMod.lowerCase}}"
 
     @Suppress("MemberVisibilityCanBePrivate")
     var config: {{sideMod.upperCase}}Config = ConfigBuilder.load({{sideMod.upperCase}}Config::class.java, MOD_ID)
